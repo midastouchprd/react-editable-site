@@ -58,7 +58,3 @@ typings/
 .env
 
 .DS_Store
-public/
-server.js
-server.js.map
-webpack.config.js
