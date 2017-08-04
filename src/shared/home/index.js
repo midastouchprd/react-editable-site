@@ -11,7 +11,6 @@ class Home extends Component {
       <div className="home">
         <p>HOME</p>
         <p>HOME</p>
-        <p>HOME</p>
       </div>
     );
   }

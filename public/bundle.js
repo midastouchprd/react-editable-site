@@ -28091,17 +28091,6 @@ var Home = function (_Component) {
             __self: this
           },
           "HOME"
-        ),
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-          "p",
-          {
-            __source: {
-              fileName: _jsxFileName,
-              lineNumber: 14
-            },
-            __self: this
-          },
-          "HOME"
         )
       );
     }

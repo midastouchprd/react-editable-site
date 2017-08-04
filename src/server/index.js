@@ -19,7 +19,7 @@ app.get("/api/news", (req, res) => {
   res.json([
     {
       id: 1,
-      upvotes: 257,
+      upvotes: 247,
       title: "Fianto Duri, the complete tutorial",
       author: "RubeusH",
       date: new Date(Date.now() - 15000000)
