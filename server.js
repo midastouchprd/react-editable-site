@@ -19107,7 +19107,7 @@ app.use(__WEBPACK_IMPORTED_MODULE_0_express___default.a.static("public"));
 app.get("/api/news", function (req, res) {
   res.json([{
     id: 1,
-    upvotes: 247,
+    upvotes: 257,
     title: "Fianto Duri, the complete tutorial",
     author: "RubeusH",
     date: new Date(Date.now() - 15000000)
@@ -43824,6 +43824,28 @@ var Home = function (_Component) {
             __source: {
               fileName: _jsxFileName,
               lineNumber: 13
+            },
+            __self: this
+          },
+          "HOME"
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "p",
+          {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 14
+            },
+            __self: this
+          },
+          "HOME"
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "p",
+          {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 15
             },
             __self: this
           },
