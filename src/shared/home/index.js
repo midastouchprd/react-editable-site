@@ -10,6 +10,7 @@ class Home extends Component {
     return (
       <div className="home">
         <p>HOME</p>
+        <p>HOME</p>
       </div>
     );
   }

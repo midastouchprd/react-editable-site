@@ -19183,12 +19183,6 @@ app.get("/api/news", function (req, res) {
     title: "Mailing lists WN readers ought to know about?",
     author: "Dracod",
     date: new Date(Date.now() - 60000)
-  }, {
-    id: 14,
-    upvotes: 8,
-    title: "How to tell which spell used on a bug?",
-    author: "Lupin",
-    date: new Date()
   }]);
 });
 
@@ -19209,7 +19203,7 @@ app.get("*", function (req, res, next) {
       __WEBPACK_IMPORTED_MODULE_4_react_redux__["a" /* Provider */],
       { store: store, __source: {
           fileName: _jsxFileName,
-          lineNumber: 137
+          lineNumber: 130
         },
         __self: _this
       },
@@ -19217,14 +19211,14 @@ app.get("*", function (req, res, next) {
         __WEBPACK_IMPORTED_MODULE_5_react_router_dom__["b" /* StaticRouter */],
         { location: req.url, context: context, __source: {
             fileName: _jsxFileName,
-            lineNumber: 138
+            lineNumber: 131
           },
           __self: _this
         },
         __WEBPACK_IMPORTED_MODULE_2_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_9__shared_App__["a" /* default */], {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 139
+            lineNumber: 132
           },
           __self: _this
         })
@@ -43819,6 +43813,17 @@ var Home = function (_Component) {
             __source: {
               fileName: _jsxFileName,
               lineNumber: 12
+            },
+            __self: this
+          },
+          "HOME"
+        ),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+          "p",
+          {
+            __source: {
+              fileName: _jsxFileName,
+              lineNumber: 13
             },
             __self: this
           },

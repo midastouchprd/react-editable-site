@@ -108,13 +108,6 @@ app.get("/api/news", (req, res) => {
       author: "Dracod",
       date: new Date(Date.now() - 60000)
     },
-    {
-      id: 14,
-      upvotes: 8,
-      title: "How to tell which spell used on a bug?",
-      author: "Lupin",
-      date: new Date()
-    }
   ]);
 });
 
