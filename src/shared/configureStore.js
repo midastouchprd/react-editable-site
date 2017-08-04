@@ -1,8 +1,16 @@
-import { createStore, applyMiddleware } from "redux";
-import thunk from "redux-thunk";
-import reducer from "./ducks";
+/* eslint-disable no-useless-constructor */
+/* eslint-disable no-unused-vars*/
 
-const configureStore = preloadedState =>
-  createStore(reducer, preloadedState, applyMiddleware(thunk));
+import rootReducer from './redux/index';
+import {createStore, applyMiddleware, compose} from 'redux';
+import thunk from 'redux-thunk';
 
-export default configureStore;
+/* eslint-disable no-underscore-dangle */
+const composeEnhancers = typeof window !== 'undefined' && window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+export default(initialState) => {
+    return createStore(rootReducer,
+    /* preloadedState, */
+    composeEnhancers(applyMiddleware(thunk))
+)}
+/* eslint-enable */
